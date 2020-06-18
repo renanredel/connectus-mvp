@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:id="@+id/settingsFragment">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/accountSettings"
+            android:textSize="14dp"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <Button
+            android:id="@+id/account_settings"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingLeft="20dp"
+            android:text="youEmailHere"
+            android:textSize="14dp"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:gravity="center_vertical|start"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textColor="@color/blackTextColor"
+            android:fontFamily="sans-serif"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/settingspage"
+            android:textAllCaps="true"
+            android:textSize="14dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <Switch
+        android:id="@+id/autenticationSwitch"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/biometricSwitch"
+        android:checked="true"
+        android:fontFamily="sans-serif"/>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+
+        <Switch
+            android:id="@+id/bussinessOPT"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/connectusbusiness"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="14dp"
+            android:checked="false"
+            android:enabled="false"
+            android:fontFamily="sans-serif"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <Button
+            android:id="@+id/set_pin"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingLeft="20dp"
+            android:text="Set PINCode"
+            android:textSize="14dp"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical|start"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textColor="@color/blackTextColor"
+            android:enabled="false"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/notifications"
+            android:textAllCaps="true"
+            android:textSize="14dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <Button
+            android:id="@+id/notificationSettings"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/notifications"
+            android:textSize="14dp"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical|start"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textColor="@color/blackTextColor"
+            android:paddingLeft="20dp"/>
+            <!--@Todo Colocar um Popmenu -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/privacySettings"
+            android:textAllCaps="true"
+            android:textSize="14dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <TextView
+            android:id="@+id/cleanHistory"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/cleanhistory"
+            android:textSize="14dp"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical|start"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textColor="@color/blackTextColor"
+            android:paddingLeft="20dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/termsOfUse"
+            android:textSize="14dp"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical|start"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textColor="@color/blackTextColor"
+            android:paddingLeft="20dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/settingsOut"
+            android:layout_height="60dp"
+            android:text="@string/logoutnav"
+            android:textSize="14dp"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical|start"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textColor="@color/blackTextColor"
+            android:paddingLeft="20dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/deleteAcc"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/deleteAcc"
+            android:textSize="14dp"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical|start"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textColor="@color/blackTextColor"
+            android:paddingLeft="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:text="@string/abouus"
+            android:textAllCaps="true"
+            android:textSize="14dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/removeAD"
+            android:textSize="14dp"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical|start"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textColor="@color/blackTextColor"
+            android:paddingLeft="20dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/aboutconnectus"
+            android:textSize="14dp"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical|start"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textColor="@color/blackTextColor"
+            android:paddingLeft="20dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="@string/help"
+            android:textSize="14dp"
+            android:clickable="true"
+            android:textAllCaps="false"
+            android:fontFamily="sans-serif"
+            android:gravity="center_vertical|start"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:textColor="@color/blackTextColor"
+            android:paddingLeft="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/version"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="10dp"
+            android:gravity="center_horizontal"
+            android:fontFamily="sans-serif-condensed"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

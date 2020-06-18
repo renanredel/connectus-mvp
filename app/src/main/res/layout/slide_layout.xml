@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical|center_horizontal"
+    android:fitsSystemWindows="true">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/main_background"
+        android:id="@+id/bgCarrousel"
+        android:scaleType="fitXY"/>
+
+    <!--<ImageView
+        android:id="@+id/slide_image"
+        android:layout_width="194dp"
+        android:layout_height="320dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="109dp"
+        app:srcCompat="@drawable/splashlogo"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="0dp" />-
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/slide_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="false"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="72dp"
+            android:width="0dip"
+            android:gravity="center"
+            android:text="Slide1"
+            android:textColor="@color/secondaryLightColor"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="151dp"
+            tools:layout_editor_absoluteY="361dp" />
+
+        <TextView
+            android:id="@+id/slide_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/slide_title"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="67dp"
+            android:width="0dip"
+            android:gravity="center_horizontal"
+            android:text="Desc1"
+            android:textColor="@color/secondaryLightColor"
+            android:textSize="18sp" />
+    </RelativeLayout>-->
+
+</RelativeLayout>

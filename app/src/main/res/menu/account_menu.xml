@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/acc_op1"
+        android:title="Facebook"/>
+    <item
+        android:id="@+id/acc_op2"
+        android:title="Instagram"/>
+    <item
+        android:id="@+id/acc_op3"
+        android:title="Skype"/>
+</menu>

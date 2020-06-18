@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/drawer_layout"
+        android:background="#FFF5F7F9"
+        android:orientation="vertical"
+        tools:context=".DrawerActivity"
+        android:fitsSystemWindows="true"
+        tools:openDrawer="start">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimary"
+                android:id="@+id/toolbar"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                android:elevation="10dp"/>
+
+
+
+        <FrameLayout
+                android:id="@+id/fragment_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/drawer_menu">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="left"
+            android:id="@+id/drawer_layout_real"
+            android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/userNavImage"
+                    android:src="@mipmap/ic_launcher"
+                    android:paddingTop="50dp"
+                    android:paddingLeft="10dp" />
+
+
+            <TextView
+                android:id="@+id/userNameNav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"
+                android:text="@string/userNavName"
+                android:fontFamily="sans-serif"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+
+
+        </LinearLayout>
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/drawer_layout_shimmer"
+            android:visibility="visible">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="left">
+
+                <View
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_marginTop="46dp"
+                    android:layout_marginLeft="6dp"
+                    android:src="@mipmap/ic_launcher"
+                    android:paddingTop="50dp"
+                    android:background="@color/shimmerColor"
+                    android:paddingLeft="10dp"/>
+
+
+                <View
+                    android:layout_width="150dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@color/shimmerColor"/>
+            </LinearLayout>
+
+
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </android.support.design.widget.NavigationView>
+
+    </android.support.v4.widget.DrawerLayout>

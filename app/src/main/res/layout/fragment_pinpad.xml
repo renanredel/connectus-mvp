@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/bottom_sheetpinpad2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fragmentbackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="39dp"
+            android:layout_marginTop="31dp"
+            android:layout_marginEnd="38dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/blackTextColor"
+            android:text="Favor, digite sua senha:"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/pinpadEdit"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="63dp"
+            android:focusedByDefault="true"
+            android:gravity="center"
+            android:inputType="numberPassword"
+            android:maxLength="4"
+            android:selectAllOnFocus="true"
+            android:text="4444"
+            android:textSize="50dp" />
+
+        <Button
+            android:id="@+id/autenticate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="102dp"
+            android:layout_toEndOf="@+id/pinpadEdit"
+            android:background="@drawable/button2"
+            android:fontFamily="sans-serif"
+            android:text="enviar"
+            android:textColor="@android:color/white" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/homepage"
+            android:fontFamily="sans-serif"/>
+
+        <item
+            android:id="@+id/nav_accounts"
+            android:icon="@drawable/ic_accounts"
+            android:title="@string/accountpage"
+            android:fontFamily="sans-serif"/>
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/ic_history"
+            android:title="@string/historycnav"
+            android:fontFamily="sans-serif"/>
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/settingspage"
+            android:fontFamily="sans-serif"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="@string/logoutnav"
+            android:fontFamily="sans-serif" />
+
+
+    </group>
+
+    <item android:title="@string/comunicate">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_share"
+                android:title="@string/shareapp" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,64 @@
+<resources>
+    <!-- STRINS NO GERAL -->
+    <string name="app_name">ConnectUS.Prototype</string>
+    <string name="com_auth0_client_id" translatable="false">AUTH0 KEY</string>
+    <string name="com_auth0_domain" translatable="false">connectusapp.auth0.com</string>
+    <string name="string_username" translatable="false">+@string/username</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="username">Olá %1$s</string>
+    <string name="useremail">Email: %1$s</string>
+    <string name="login_again">Log In Again</string>
+    <string name="login" translatable="false">Log In</string>
+    <string name="request_credentials_title" translatable="false">Authenticate to continue</string>
+    <string name="addAccount" translatable="true">Adicionar Contas</string>
+
+
+    <!-- DRAWER STRINGS-->
+    <string name="homepage" translatable="true">Página Inicial</string>
+    <string name="settingspage" translatable="true">Configurações</string>
+    <string name="accountpage" translatable="true">Contas</string>
+    <string name="logoutnav" translatable="true">Sair</string>
+    <string name="historycnav" translatable="true">Histórico</string>
+
+    <string name="comunicate" translatable="true">Comunicação</string>
+    <string name="shareapp" translatable="true">Compartilhar</string>
+
+    <string name="userNavName">%1$s</string>
+
+    <!-- ALERT STRINGS -->
+    <string name="exit" translatable="true">Sair</string>
+    <string name="alertexit" translatable="true">Você deseja sair?</string>
+    <string name="yesopt" translatable="true">Sim</string>
+    <string name="exitopt" translatable="true">Sair</string>
+    <string name="cancelopt" translatable="true">Cancelar</string>
+    <string name="noOpt" translatable="true">Não</string>
+
+    <string name="noInternet" translatable="true">Sem internet</string>
+    <string name="noConnection" translatable="true">Não há uma conexão de internet ativa.</string>
+    <string name="retryOpt" translatable="true">Reiniciar</string>
+
+    <!-- SETTINGS PAGE STRINGS -->
+    <string name="accountemail">%1$s</string>
+    <string name="accountSettings" translatable="true">Conta</string>
+    <string name="biometricSwitch" translatable="true">Autenticação via Biométria</string>
+    <string name="privacySettings" translatable="true">Privacidade</string>
+    <string name="connectusbusiness" translatable="true">ConnectUS Empresárial</string>
+    <string name="cleanhistory" translatable="true">Limpar Histórico</string>
+    <string name="termsOfUse" translatable="true">Termos de uso</string>
+    <string name="help" translatable="true">Ajuda</string>
+    <string name="abouus" translatable="true">Sobre</string>
+    <string name="aboutconnectus" translatable="true">Quem somos</string>
+    <string name="version" translatable="true">Prototype - Versão 0.0.1</string>
+    <string name="deleteAcc" translatable="true">Excluir Conta</string>
+    <string name="notifications" translatable="true">Notificações</string>
+    <string name="removeAD" translatable="true">Remover Anúncios</string>
+    <string name="cleanhistoryAlert" translatable="true">Deseja apagar todo o histórico?</string>
+    <string name="atention" translatable="true">Atenção</string>
+
+
+    <string name="deleteaccount" translatable="true">Deletar conta</string>
+    <string name="sureToDelete" translatable="true">Você tem certeza que deseja excluir sua conta?</string>
+
+
+</resources>
